@@ -6,11 +6,16 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["scraping", "utilities", "api"],
+  "keywords": ["scraping", "utilities", "api", "sticker", "conversion"],
   "author": "KING DAVID",
   "license": "MIT",
   "dependencies": {
     "axios": "^1.7.2",
-    "crypto": "^1.0.1"
+    "crypto": "^1.0.1",
+    "fluent-ffmpeg": "^2.1.2",
+    "node-webpmux": "^3.0.2",
+    "form-data": "^4.0.0",
+    "jsdom": "^22.1.0",
+    "node-fetch": "^2.7.0"
   }
 }
